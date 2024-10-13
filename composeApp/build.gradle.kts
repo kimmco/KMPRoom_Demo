@@ -85,6 +85,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+
 }
 
 room {
@@ -94,9 +95,10 @@ room {
 dependencies {
     debugImplementation(compose.uiTooling)
     add("kspAndroid", libs.room.compiler)
-    add("kspIosX64", libs.room.compiler)
+ /*  add("kspIosX64", libs.room.compiler)
     add("kspIosArm64", libs.room.compiler)
-    add("kspIosSimulatorArm64", libs.room.compiler)
+    add("kspIosSimulatorArm64", libs.room.compiler) */
 }
+
 
 
